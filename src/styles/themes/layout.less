@@ -1,3 +1,25 @@
-.header {
-    height: 500px;
+@base-color1: #3C393C;
+@base-color2: #01B79C;
+@base-color3: #333033;
+@base-color4: #FFCA06;
+@base-color5: #001529;
+
+.distance-layout {
+    position: relative;
+    .distance-header {
+        display: flex;
+        justify-content: center;
+        .logo {
+            float: left;
+            color: @base-color2;
+            font-size: 24px;
+            font-family: fantasy;
+        }
+        .navigation {
+            margin-left: 80px;
+        }
+        .login {
+            float: right;
+        }
+    }
 }
